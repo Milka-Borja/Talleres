@@ -1,112 +1,25 @@
-import java.util.Scanner;
-public class Empleado {
-    String nombre;
-    String cargo;
-    double salario;
-    String fecha;
-    public Empleado(String nombre, String cargo, double salario, String fecha) {
-        this.nombre=nombre;
-        this.cargo=cargo;
-        this.salario=salario;
-        this.fecha=fecha;
+EJERCICIO 1
+Problema: Jugadores de un equipo de fútbol. Cada jugador tiene un nombre, una posición en el
+campo, una edad y un número de camiseta.
+Objetivo: Desarrollar una clase en Java llamada Jugador que tenga los atributos y un método
+para mostrar la información del jugador. Luego, crear tres objetos de esta clase, cada uno
+representando un jugador diferente.
+Realizar EL REGISTRO de los atributos con datos quemados y utilizando Scanner combinar
 
+<img width="438" height="401" alt="image" src="https://github.com/user-attachments/assets/7ea38a64-3c12-4696-8f38-2d2b8e6003eb" />
 
-    }
-    void mostrar(){
-        System.out.println("Nombre: "+nombre+"Cargo: "+cargo+"Salario: "+salario+"Fecha: "+fecha);
-    }
-    public static void main(String[] args){
-        Scanner ingreso= new Scanner(System.in);
-        System.out.println("--------------Empleado 1-------------------");
-        System.out.println("Ingrese el nombre del empleado: ");
-        String name1=ingreso.nextLine();
-        System.out.println("Ingrese el cargo del empleado: ");
-        String cargo1=ingreso.nextLine();
-        System.out.println("Ingrese el salario del empleado: ");
-        double salario1=ingreso.nextDouble();
-        ingreso.nextLine();
-        System.out.println("Ingrese el fecha del empleado: ");
-        String fecha1=ingreso.nextLine();
-        System.out.println("--------------Empleado 2-------------------");
-        System.out.println("Ingrese el nombre del empleado: ");
-        String name2=ingreso.nextLine();
-        System.out.println("Ingrese el cargo del empleado: ");
-        String cargo2=ingreso.nextLine();
-        System.out.println("Ingrese el salario del empleado: ");
-        double salario2=ingreso.nextDouble();
-        ingreso.nextLine();
-        System.out.println("Ingrese el fecha del empleado: ");
-        String fecha2=ingreso.nextLine();
-        System.out.println("Ingrese el nombre del empleado: ");
-        System.out.println("--------------Empleado 3-------------------");
-        String name3=ingreso.nextLine();
-        System.out.println("Ingrese el cargo del empleado: ");
-        String cargo3=ingreso.nextLine();
-        System.out.println("Ingrese el salario del empleado: ");
-        double salario3=ingreso.nextDouble();
-        ingreso.nextLine();
-        System.out.println("Ingrese el fecha del empleado: ");
-        String fecha3=ingreso.nextLine();
+<img width="426" height="531" alt="image" src="https://github.com/user-attachments/assets/fa9ed85b-df11-4e98-9fe0-d0af2d52f462" />
 
+EJERCICIO 2
+Problema: Sistema de gestión de empleados en una empresa. Cada empleado tiene un nombre,
+un cargo, un salario y una fecha de ingreso a la empresa.
+Objetivo: Desarrollar una clase en Java llamada Empleado que tenga los atributos mencionados
+anteriormente y un método para mostrar la información del empleado. Luego, crearemos tres
+objetos de esta clase, cada uno representando un empleado diferente, y solicitaremos al usuario
+que ingrese los detalles de cada empleado a través del teclado
 
-
-
-    }
-}
-
-
-
-
-
-
-
-
-import java.util.Scanner;
-public class Jugador {
-    String nombre;
-    String posicion;
-    int edad;
-    int camiseta;
-    public Jugador(String nombre, String posicion, int edad, int camiseta){
-        this.nombre = nombre;
-        this.posicion = posicion;
-        this.edad = edad;
-        this.camiseta = camiseta;
-    }
-    void mostrar(){
-        for(int i=1; i<=3; i++){
-            System.out.println("Jugador n°"+i+"\n Nombre: "+nombre+" \n Posicion: "+posicion+"\n Edad: " +edad+" \n Camiseta: "+camiseta);
-        }
-    }
-    public static void main(String[] args){
-        Scanner ingreso= new Scanner(System.in);
-        System.out.println("Ingrese el nombre del jugador:");
-        String name1=ingreso.nextLine();
-        System.out.println("Ingrese el posicion del jugador:");
-        String pos1=ingreso.nextLine();
-        System.out.println("Ingrese la edad del jugador:");
-        int edad1=ingreso.nextInt();
-        System.out.println("Ingrese el numero de camiseta deljugador: ");
-        int cam1=ingreso.nextInt();
-        ingreso.nextLine();
-        System.out.println("----------------Jugador 2----------------");
-        System.out.println("Ingrese el nombre del jugador 2:");
-        String name2=ingreso.nextLine();
-        System.out.println("Ingrese el posicion del jugador 2:");
-        String pos2=ingreso.nextLine();
-        System.out.println("Ingrese la edad del jugador 2:");
-        int edad2=ingreso.nextInt();
-        System.out.println("Ingrese el numero de camiseta deljugador 2: ");
-        int cam2=ingreso.nextInt();
-        ingreso.nextLine();
-        Jugador jugador1=new Jugador(name1,pos1,edad1,cam1);
-        Jugador jugador2=new Jugador(name2,pos2,edad2,cam2);
-        Jugador jugador3=new Jugador("Jose","delantero",23,5);
-        jugador1.mostrar();//Fin del Programa
-    }
-}
-
-
+<img width="471" height="594" alt="image" src="https://github.com/user-attachments/assets/139b59e2-0ced-4aa8-9a13-2c9e16ef0aa0" />
+<img width="573" height="280" alt="image" src="https://github.com/user-attachments/assets/e96bcc06-8b34-455c-847e-a794b0e50bc8" />
 
 
 
